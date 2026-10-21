@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="64" viewBox="0 0 760 64" role="img" aria-label="Let what matters shine through the noise.">
+  <title>Let what matters shine through the noise.</title>
+  <defs>
+    <linearGradient id="base" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="720" y2="0">
+      <stop offset="0" stop-color="#B8860B"/>
+      <stop offset="0.3" stop-color="#E0A526"/>
+      <stop offset="0.5" stop-color="#F6C445"/>
+      <stop offset="0.7" stop-color="#E0A526"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-200" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFF6D5" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="0 0; 0 0; 960 0; 960 0" keyTimes="0; 0.25; 0.75; 1" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600"
+     font-style="italic" text-anchor="middle">
+    <text x="380" y="42" fill="url(#base)">Let what matters shine through the noise.</text>
+    <text x="380" y="42" fill="url(#shine)">Let what matters shine through the noise.</text>
+  </g>
+</svg>

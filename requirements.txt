@@ -1,0 +1,13 @@
+# Versions used for the paper (NVIDIA DGX Spark, GB10, aarch64, CUDA 13.0, Python 3.12.3).
+# Install torch for your platform/CUDA first: https://pytorch.org/get-started/locally/
+torch==2.12.0
+transformers==5.9.0
+accelerate==1.13.0
+sionna==2.0.1          # PyTorch-based Sionna (sionna.phy); pulls in sionna-rt
+numpy==1.26.4
+scipy==1.17.1
+pillow==11.3.0
+matplotlib==3.10.9
+requests==2.32.5
+jupyterlab==4.4.7
+# Ollama 0.23.2 serves the speaker (qwen3-vl:30b-a3b-instruct) and judge (qwen3:8b)

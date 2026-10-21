@@ -1,0 +1,19 @@
+# experiment outputs
+/results/
+*.pkl
+
+# large dataset files (distributed via GitHub release / third party)
+factory_dataset/images/
+factory_dataset_images.zip
+vehicle_dataset/*
+!vehicle_dataset/README.md
+openalpr_benchmarks/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# DeepJSCC curves (paper figures, kept out of the repo)
+deepjscc_baselines/figs/baselines_*
